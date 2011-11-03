@@ -1,0 +1,5 @@
+#!/bin/bash
+
+GRUB_MKCONFIG="$(which grub-mkconfig)"
+
+$GRUB_MKCONFIG -o /boot/grub/grub.cfg $@
